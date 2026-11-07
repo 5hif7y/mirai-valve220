@@ -6,10 +6,12 @@ with its collider and its materials.
 
 ## Install
 
-From the catalog, in the folder of a Mirai project:
+It is not in the catalog on its own: there it is part of
+[brush_maps](https://github.com/5hif7y/mirai-brush-maps), which joins the map plugins in one install
+(`mirai plugin add brush_maps`). Installed alone, by its address, in the folder of a Mirai project:
 
 ```sh
-mirai plugin add valve220
+mirai plugin add https://github.com/5hif7y/mirai-valve220.git
 ```
 
 Then import a `.map` from the editor: drop it on the content browser or use Import. Like every
