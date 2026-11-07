@@ -1,7 +1,7 @@
 package valve220_editor
 
 import "mirai:editor"
-import loader "project:plugins/valve220/editor/loader"
+import loader "./loader"
 
 // Valve 220 .map in the import of the editor: the dialect TrenchBroom writes,
 // its brushes to static meshes with their colliders and materials
